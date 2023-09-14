@@ -4,7 +4,7 @@ import polars as pl
 
 def summary():
     df=pl.read_csv("gss.csv")
-    print(df.shape)
+    print(df.median())
     print(df.describe())
     
 def age():
