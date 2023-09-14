@@ -13,4 +13,5 @@ uvicorn==0.18.3
 #other packages
 pandas
 matplotlib
+seaborn
 polars
