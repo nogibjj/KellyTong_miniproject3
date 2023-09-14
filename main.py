@@ -13,8 +13,8 @@ def age():
     plot.legend()
     plt.show()
     
-def desrcibe_dataframe():
-    data = {'height': [170,175,160,180,190]
-    }
-    dataframe = pl.DataFrame(data)
-    return dataframe.describe()
+#def desrcibe_dataframe():
+  #  data = {'height': [170,175,160,180,190]
+ #   }
+  #  dataframe = pl.DataFrame(data)
+  #  return dataframe.describe()
