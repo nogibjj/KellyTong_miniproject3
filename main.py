@@ -2,10 +2,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import polars as pl
 
-def age():
+def summary():
     df=pl.read_csv("gss.csv")
     print(df.shape)
     print(df.describe())
+    
+def age():
+    df=pl.read_csv("gss.csv")
     plot = sns.histplot(df["age"], kde=True, color="blue", label="Age")
     plot.legend()
     plt.show()
