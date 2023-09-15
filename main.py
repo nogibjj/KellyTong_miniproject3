@@ -9,7 +9,7 @@ import polars as pl
    # print(df.describe())
     
 def age():
-    df=pl.read_csv(‘gss.csv’)
+    df = pl.read_csv('gss.csv')
     #print(df.median())
     print(df.describe())
     #plot = sns.histplot(df["age"], kde=True, color="blue", label="Age")
