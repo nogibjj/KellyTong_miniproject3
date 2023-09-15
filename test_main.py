@@ -1,6 +1,7 @@
 #this is for testing functions in main.py
 
 from main import age
+import polars as pl
 
 #def test_summary():
     #summary()
