@@ -4,6 +4,7 @@ import polars as pl
 
 def summary():
     df=pl.read_csv("gss.csv")
+    df.dropna()
     print(df.median())
     print(df.describe())
     
