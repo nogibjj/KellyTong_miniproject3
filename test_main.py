@@ -1,14 +1,12 @@
 #this is for testing functions in main.py
 
 from main import age
-import polars as pl
 
 #def test_summary():
     #summary()
     
 def test_age():
-    data = pl.read_csv("gss.csv")
-    age(data)
+    age()
 
 #def test_describe():
    # "testing the desrcibe_dataframe function in main.py"
