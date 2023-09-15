@@ -6,7 +6,7 @@ from main import age
     #summary()
     
 def test_age():
-    data = gss.csv
+    data = 'gss.csv'
     age(data)
 
 #def test_describe():
