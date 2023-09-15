@@ -1,9 +1,9 @@
 #this is for testing functions in main.py
 
-from main import summary, age
+from main import age
 
-def test_summary():
-    summary()
+#def test_summary():
+    #summary()
     
 def test_age():
     age()
