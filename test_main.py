@@ -6,7 +6,8 @@ from main import age
     #summary()
     
 def test_age():
-    age()
+    data = gss.csv
+    age(data)
 
 #def test_describe():
    # "testing the desrcibe_dataframe function in main.py"
