@@ -32,7 +32,9 @@ This repository is for IDS706 mini project week 3.
   
 - ``OutputWeek3.pdf`` displays the detailed output from running main.py
   
-- ``repeat.sh````setup.sh``
+- ``repeat.sh``
+  
+- ``setup.sh``
 
 [![CI](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/CI.yml)
 
