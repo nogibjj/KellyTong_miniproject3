@@ -15,15 +15,15 @@ def age_pandas():
     plt.show()
   
 def summary_polars():
-  df = pl.read_csv("gss2.csv", infer_schema_length=10000)
-  print(df.median())
-  print(df.describe())
+    df = pl.read_csv("gss2.csv", infer_schema_length=10000)
+    print(df.median())
+    print(df.describe())
     
 def age_polars():
-  df = pl.read_csv("gss2.csv", infer_schema_length=10000)
-  plot = sns.histplot(df["age"], kde=True, color="blue", label="Age")
-  plot.legend()
-  plt.show()
+    df = pl.read_csv("gss2.csv", infer_schema_length=10000)
+    plot = sns.histplot(df["age"], kde=True, color="blue", label="Age")
+    plot.legend()
+    plt.show()
     
 def desrcibe_dataframe():
     data = {'height': [170,175,160,180,190]
