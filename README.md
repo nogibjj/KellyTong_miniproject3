@@ -53,7 +53,7 @@ The building process starts with installing the packages.
 `make test`
 
 **Make test** calls the command python -m pytest -vv --cov=main test_*.py
-<img width="609" alt="Make Test" src="https://github.com/nogibjj/KellyTong_miniproject2/assets/142815940/1d5eb1de-c0f7-4459-97bb-cae51ea621aa">
+<img width="555" alt="make test" src="https://github.com/nogibjj/KellyTong_miniproject3/assets/142815940/e4535731-8049-4f33-b7a2-553254791ad3">
 
 
 `make format`
