@@ -27,8 +27,6 @@ This repository is for IDS706 mini project week 3.
 - ``requirements.txt`` is to specify the dependencies (libraries and packages) required to run the project.
 
 - ``test_main.py`` is a test file for main.py
-
-- ``make format.png`` ``make lint.png`` ``Make Test.png``saves the running results for the building process. These are displayed in the section below
   
 - ``gss2.csv`` is the dataset used in this project. It contains variables such as age, marital status, income, region, and happiness level etc.
   
