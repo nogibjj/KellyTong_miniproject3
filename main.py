@@ -7,6 +7,7 @@ def summary_pandas():
     df=pd.read_csv("gss2.csv")
     print(df.shape)
     print(df.describe())
+    return df.describe()
   
 def age_pandas():
     df=pd.read_csv("gss2.csv")
@@ -19,6 +20,7 @@ def summary_polars():
     df = pl.read_csv("gss2.csv", infer_schema_length=10000)
     print(df.median())
     print(df.describe())
+    return df.describe()
     
 def age_polars():
     df = pl.read_csv("gss2.csv", infer_schema_length=10000)
