@@ -36,6 +36,28 @@ This repository is for IDS706 mini project week 3.
   
 - ``setup.sh``
 
+## Github actions
+Status badges for each makefile commands are displayed below. CI.yml includes all commands. 
+
+`install.yml`
+[![install](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/install.yml)
+
+`test.yml`
+[![Test](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/test.yml)
+
+`format.yml`
+[![Format](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/format.yml)
+
+`lint.yml`
+[![Lint](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/lint.yml)
+
+`deploy.yml`
+[![Deploy](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/deploy.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/deploy.yml)
+
+`generate_and_push.yml`
+[![Generate_and_Push](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/generate_and_push.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/generate_and_push.yml)
+
+`CI.yml`
 [![CI](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/CI.yml)
 
 ## The Building Process
@@ -45,7 +67,7 @@ This repository is for IDS706 mini project week 3.
 The building process starts with installing the packages. 
 **Make install** calls the command pip install --upgrade pip &&\pip install -r requirements.txt
 
-`make link`
+`make lint`
 
 **Make lint** calls the command pylint --disable=R,C --ignore-patterns=test_.*?py *.py
 <img width="457" alt="make lint" src="https://github.com/Kelly0604/miniproject2/assets/142815940/39a19764-a6cc-4eaa-977f-7433b8915dad">
