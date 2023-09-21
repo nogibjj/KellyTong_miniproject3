@@ -2,8 +2,6 @@
 
 from main import summary_pandas, summary_polars, age_pandas, age_polars, generate_general_markdown
 
-data = "gss2.csv"
-
 def test_summary_pd():
     summary_pandas()
 
@@ -17,4 +15,4 @@ def test_age_pl():
     age_polars()
 
 def test_generate_general_md():
-    generate_general_markdown(data)
+    generate_general_markdown()
