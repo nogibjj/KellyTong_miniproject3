@@ -27,11 +27,11 @@ def age_polars():
     plt.show()
     plt.savefig("plot_age_polars.png")
 
-def generate_general_markdown(data):
+def generate_general_markdown():
     """generate an md file with outputs"""
-    markdown_table1 = summary_pandas(data)
+    markdown_table1 = summary_pandas()
     markdown_table1 = str(markdown_table1)
-    markdown_table2 = summary_polars(data)
+    markdown_table2 = summary_polars()
     markdown_table2 = str(markdown_table2)
 
     # Write the markdown table to a file
