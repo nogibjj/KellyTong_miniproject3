@@ -29,7 +29,7 @@ generate_and_push:
 	@if [ -n "$$(git status --porcelain)" ]; then \
 		git config --local user.email "action@github.com"; \
 		git config --local user.name "GitHub Action"; \
-		git add plot_age_pandas plot_age_polars output.md; \
+		git add plot_age_pandas.png plot_age_polars.png output.md; \
 		git commit -m "Add generated plot and report"; \
 		git push; \
 	else \
