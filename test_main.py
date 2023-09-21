@@ -1,7 +1,6 @@
 #this is for testing functions in main.py
 
-from main import summary_pandas, summary_polars, age_pandas, 
-age_polars, generate_md
+from main import summary_pandas, summary_polars, age_pandas, age_polars, generate_md
 
 def test_summary_pd():
     summary_pandas()
