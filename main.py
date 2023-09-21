@@ -13,6 +13,7 @@ def age_pandas():
     plot = sns.histplot(df["age"], kde=True, color="blue", label="Age")
     plot.legend()
     plt.show()
+    plt.savefig("plot_age_pandas.png")
   
 def summary_polars():
     df = pl.read_csv("gss2.csv", infer_schema_length=10000)
@@ -24,3 +25,23 @@ def age_polars():
     plot = sns.histplot(df["age"], kde=True, color="blue", label="Age")
     plot.legend()
     plt.show()
+    plt.savefig("plot_age_polars.png")
+
+def generate_general_markdown(data):
+    """generate an md file with outputs"""
+    markdown_table1 = summary_pandas(data)
+    markdown_table1 = str(markdown_table1)
+    markdown_table2 = summary_polars(data)
+    markdown_table2 = str(markdown_table2)
+
+    # Write the markdown table to a file
+    with open("output.md", "w", encoding="utf-8") as file:
+        file.write("Describe_pandas:\n")
+        file.write(markdown_table1)
+        file.write("\n\n")  # Add a new line
+        file.write("Describe_polars:\n")
+        file.write(markdown_table2)
+        file.write("\n\n")  # Add a new line
+        file.write("![age](plot_age_pandas.png)\n")
+        file.write("\n\n")  # Add a new line
+        file.write("![age](plot_age_polars.png)\n")
