@@ -12,6 +12,9 @@ def summary_pandas():
 def age_pandas():
     df=pd.read_csv("gss2.csv")
     plot = sns.histplot(df["age"], kde=True, color="blue", label="Age")
+    plt.title("Age Density Graph using Pandas")
+    plt.xlabel("Age")
+    plt.ylabel("Count")
     plot.legend()
     plt.show()
     plt.savefig("plot_age_pandas.png")
@@ -25,6 +28,9 @@ def summary_polars():
 def age_polars():
     df = pl.read_csv("gss2.csv", infer_schema_length=10000)
     plot = sns.histplot(df["age"], kde=True, color="blue", label="Age")
+    plt.title("Age Density Graph using Polars")
+    plt.xlabel("Age")
+    plt.ylabel("Count")
     plot.legend()
     plt.show()
     plt.savefig("plot_age_polars.png")
