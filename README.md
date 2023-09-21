@@ -55,7 +55,7 @@ Status badges for each makefile commands are displayed below. CI.yml includes al
 [![Deploy](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/deploy.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/deploy.yml)
 
 `generate_and_push.yml`
-[![Generate_and_Push](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/generate_and_push.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/generate_and_push.yml)
+[![Generate_and_Push](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/generate_and_push.yml/badge.svg?branch=main)](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/generate_and_push.yml)
 
 `CI.yml`
 [![CI](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject3/actions/workflows/CI.yml)
